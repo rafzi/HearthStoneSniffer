@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskBarIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp\Endpoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp\Parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp\Segment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp\Stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSSnifferApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDecoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameState.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BnetId.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInfo.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetup.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistory.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryCreateGame.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryData.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryEnd.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryEntity.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryHide.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryMetaData.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryStart.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerHistoryTagChange.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskBarIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp\Endpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp\Parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp\pcap_tcp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp\Segment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp\Stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSSnifferApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDecoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameState.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BnetId.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInfo.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetup.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistory.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryCreateGame.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryData.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryEnd.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryEntity.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryHide.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryMetaData.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryStart.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHistoryTagChange.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="protos\BnetId.proto" />
+    <None Include="protos\ClientInfo.proto" />
+    <None Include="protos\Entity.proto" />
+    <None Include="protos\GameSetup.proto" />
+    <None Include="protos\gen-proto.bat">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="protos\Player.proto" />
+    <None Include="protos\PowerHistory.proto" />
+    <None Include="protos\PowerHistoryCreateGame.proto" />
+    <None Include="protos\PowerHistoryData.proto" />
+    <None Include="protos\PowerHistoryEnd.proto" />
+    <None Include="protos\PowerHistoryEntity.proto" />
+    <None Include="protos\PowerHistoryHide.proto" />
+    <None Include="protos\PowerHistoryMetaData.proto" />
+    <None Include="protos\PowerHistoryStart.proto" />
+    <None Include="protos\PowerHistoryTagChange.proto" />
+    <None Include="protos\StartGameState.proto" />
+    <None Include="protos\Tag.proto" />
+  </ItemGroup>
+</Project>

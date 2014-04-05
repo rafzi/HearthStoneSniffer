@@ -1,0 +1,7 @@
+import "Entity.proto";
+import "Player.proto";
+
+message PowerHistoryCreateGame {
+	required Entity entity = 1;
+	repeated Player players = 2;
+}
