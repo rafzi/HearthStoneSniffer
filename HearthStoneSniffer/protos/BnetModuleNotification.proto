@@ -1,0 +1,5 @@
+message BnetModuleNotification {
+	required int32 ModuleId = 1;
+    required int32 Result = 2;
+}
+

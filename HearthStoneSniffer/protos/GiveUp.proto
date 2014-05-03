@@ -1,0 +1,6 @@
+import "Platform.proto";
+
+message GiveUp {
+	required int32 OldPlatform = 1;
+    required Platform Platform = 2;
+}

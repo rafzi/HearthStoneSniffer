@@ -1,0 +1,6 @@
+import "MouseInfo.proto";
+
+message UserUI {
+	required MouseInfo MouseInfo = 1;
+    required int32 Emote = 2;
+}

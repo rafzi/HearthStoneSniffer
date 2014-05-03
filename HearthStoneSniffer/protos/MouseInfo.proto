@@ -1,0 +1,7 @@
+message MouseInfo {
+	required int32 ArrowOrigin = 1;
+    required int32 HeldCard = 2;
+    required int32 OverCard = 3;
+    required int32 X = 4;
+    required int32 Y = 5;
+}

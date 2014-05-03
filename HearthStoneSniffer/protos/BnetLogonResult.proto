@@ -1,0 +1,3 @@
+message BnetLogonResult {
+	required int32 ErrorCode = 1;
+}

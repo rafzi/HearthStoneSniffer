@@ -1,0 +1,3 @@
+message GameStarting {
+	required int32 GameHandle = 1;
+}

@@ -1,0 +1,3 @@
+message DebugMessage {
+	required string Message = 1;
+}

@@ -1,0 +1,3 @@
+message DebugConsoleCommand {
+	required string Command = 1;
+}

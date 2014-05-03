@@ -1,0 +1,6 @@
+message BnetLogonQueueUpdateRequest {
+	required int32 Position = 1;
+    required int64 EsimatedTime = 2;
+    required int64 EtadeviationInSec = 3;
+}
+

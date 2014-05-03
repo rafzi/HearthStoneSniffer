@@ -1,0 +1,3 @@
+message Notification {
+	required int32 Type = 1;
+}

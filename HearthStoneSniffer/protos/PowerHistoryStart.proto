@@ -1,0 +1,17 @@
+message PowerHistoryStart {
+	enum PowSubType {
+		ATTACK = 1;
+		CONTINUOUS = 2;
+		POWER = 3;
+		SCRIPT = 4;
+		TRIGGER = 5;
+		DEATHS = 6;
+		PLAY = 7;
+		FATIGUE = 8;
+	}
+
+	required PowSubType Type = 1;
+	required int32 Index = 2;
+	required int32 Source = 3;
+	required int32 Target = 4;
+}

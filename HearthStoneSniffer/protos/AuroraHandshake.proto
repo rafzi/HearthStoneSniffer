@@ -1,0 +1,11 @@
+import "Platform.proto";
+
+message AuroraHandshake {
+	required int32 GameHandle = 1;
+    required string Password = 2;
+    required int64 ClientHandle = 3;
+    required int32 Mission = 4;
+    required string Version = 5;
+    required int32 OldPlatform = 6;
+    required Platform Platform = 7;
+}

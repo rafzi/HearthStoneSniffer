@@ -1,0 +1,12 @@
+import "BnetProcessId.proto";
+import "BnetBindResponse.proto";
+import "BnetContentMeteringContentHandles.proto";
+
+message BnetConnectResponse {
+	required BnetProcessId ServerId = 1;
+	required BnetProcessId ClientId = 2;
+    required int32 BindResult = 3;
+    required BnetBindResponse BindResponse = 4;
+    required BnetContentMeteringContentHandles ContentHandleArray = 5;
+    required int64 ServerTime = 6;
+}

@@ -1,0 +1,9 @@
+message EntityChoice {
+	required int32 Id = 1;
+	required int32 ChoiceType = 2;
+	required bool Cancelable = 3;
+	required int32 CountMin = 4;
+	required int32 CountMax = 5;
+	repeated int32 Entities = 6;
+	required int32 SourceField = 7;
+}

@@ -1,0 +1,7 @@
+import "TagName.proto";
+
+message PowerHistoryTagChange {
+	required int32 Entity = 1;
+	required TagName Name = 2;
+	required int32 Value = 3;
+}

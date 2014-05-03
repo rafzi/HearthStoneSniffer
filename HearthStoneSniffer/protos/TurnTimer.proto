@@ -1,0 +1,5 @@
+message TurnTimer {
+	required int32 Seconds = 1;
+    required int32 Turn = 2;
+    required bool Show = 3;
+}

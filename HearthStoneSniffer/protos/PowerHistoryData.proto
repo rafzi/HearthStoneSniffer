@@ -1,0 +1,18 @@
+import "PowerHistoryEntity.proto";
+import "PowerHistoryHide.proto";
+import "PowerHistoryTagChange.proto";
+import "PowerHistoryCreateGame.proto";
+import "PowerHistoryStart.proto";
+import "PowerHistoryEnd.proto";
+import "PowerHistoryMetaData.proto";
+
+message PowerHistoryData {
+	optional PowerHistoryEntity FullEntity = 1;
+	optional PowerHistoryEntity ShowEntity = 2;
+	optional PowerHistoryHide HideEntity = 3;
+	optional PowerHistoryTagChange TagChange = 4;
+	optional PowerHistoryCreateGame CreateGame = 5;
+	optional PowerHistoryStart PowerStart = 6;
+	optional PowerHistoryEnd PowerEnd = 7;
+	optional PowerHistoryMetaData MetaData = 8;
+}

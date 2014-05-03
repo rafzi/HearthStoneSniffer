@@ -1,0 +1,4 @@
+message BnetBoundService {
+	required int32 Hash = 1;
+    required int32 Id = 2;
+}

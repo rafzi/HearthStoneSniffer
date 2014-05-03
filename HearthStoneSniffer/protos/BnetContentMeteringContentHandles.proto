@@ -1,0 +1,5 @@
+import "BnetContentHandle.proto";
+
+message BnetContentMeteringContentHandles {
+	repeated BnetContentHandle List = 1;
+}

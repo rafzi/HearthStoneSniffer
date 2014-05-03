@@ -1,0 +1,7 @@
+message AutoLogin {
+	required string User = 1;
+    required string Pwd  = 2;
+    required int32 BuildId = 3;
+    required string DebugName = 4;
+    required int32 Source = 5;
+}

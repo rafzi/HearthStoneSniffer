@@ -1,0 +1,3 @@
+message BnetBindResponse {
+	repeated int32 ImportedServices = 1;
+}

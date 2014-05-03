@@ -1,0 +1,6 @@
+import "Tag.proto";
+
+message Entity {
+	required int32 Id = 1;
+	repeated Tag Tags = 2;
+}

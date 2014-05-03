@@ -1,0 +1,13 @@
+import "SubOption.proto";
+
+message Option {
+	enum OptionType {
+    	PASS = 1;
+        END_TURN = 2;
+        POWER = 3;
+    }
+    
+    required OptionType Type = 1;
+    required SubOption MainOption = 2;
+    repeated SubOption SubOptions = 3;
+}

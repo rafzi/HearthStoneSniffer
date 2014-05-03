@@ -1,0 +1,4 @@
+message ChooseEntities {
+	required int32 Id = 1;
+	repeated int32 Entities = 2;
+}

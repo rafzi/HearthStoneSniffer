@@ -1,0 +1,7 @@
+import "BnetContentHandle.proto";
+
+message BnetModuleLoadRequest {
+	required BnetContentHandle ModuleHandle = 1;
+    required bytes Message = 2;
+}
+

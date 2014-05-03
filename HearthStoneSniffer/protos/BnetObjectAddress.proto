@@ -1,0 +1,6 @@
+import "BnetProcessId.proto";
+
+message BnetObjectAddress {
+	required BnetProcessId Host = 1;
+    required int64 ObjectId = 2;
+}

@@ -1,0 +1,7 @@
+import "Tag.proto";
+
+message PowerHistoryEntity {
+	required int32 Entity = 1;
+	required string Name = 2;
+	repeated Tag Tags = 3;
+}

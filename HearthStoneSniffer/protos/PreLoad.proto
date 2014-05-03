@@ -1,0 +1,3 @@
+message PreLoad {
+	repeated int32 Cards = 1;
+}

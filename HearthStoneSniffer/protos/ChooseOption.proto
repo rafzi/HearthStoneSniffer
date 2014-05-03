@@ -1,0 +1,12 @@
+import "Platform.proto";
+
+message ChooseOption {
+	required int32 Id = 1;
+    required int32 Index = 2;
+    required int32 Target = 3;
+    required int32 SubOption = 4;
+    required int32 Position = 5;
+    required int32 OldPlatform = 6;
+    required Platform Platform = 7;
+}
+    

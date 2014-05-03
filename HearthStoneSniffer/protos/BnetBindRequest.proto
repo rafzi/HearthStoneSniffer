@@ -1,0 +1,6 @@
+import "BnetBoundService.proto";
+
+message BnetBindRequest {
+	repeated int32 ImportedServiceHash = 1;
+    repeated BnetBoundService ExportedService = 2;
+}

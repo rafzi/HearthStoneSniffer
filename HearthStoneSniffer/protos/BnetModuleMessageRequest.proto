@@ -1,0 +1,4 @@
+message BnetModuleMessageRequest {
+	required int32 ModuleId = 1;
+    required bytes Message = 2;
+}

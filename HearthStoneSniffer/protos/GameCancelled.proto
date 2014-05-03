@@ -1,0 +1,3 @@
+message GameCancelled {
+	required int32 Reason = 1;
+}

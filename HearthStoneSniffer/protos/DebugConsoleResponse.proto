@@ -1,0 +1,8 @@
+message DebugConsoleResponse {
+    enum ResponseType {
+    	CONSOLE_OUTPUT = 1;
+        LOG_MESSAGE = 2;
+    }
+	required string Response = 1;
+	required ResponseType Type = 2;
+}

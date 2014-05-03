@@ -1,0 +1,3 @@
+message NAckOption {
+	required int32 Id = 1;
+}

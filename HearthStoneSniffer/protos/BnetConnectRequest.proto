@@ -1,0 +1,7 @@
+import "BnetProcessId.proto";
+import "BnetBindRequest.proto";
+
+message BnetConnectRequest {
+	required BnetProcessId ClientId = 1;
+    required BnetBindRequest BindRequest = 2;
+}

@@ -1,0 +1,9 @@
+import "BnetObjectAddress.proto";
+
+message BnetErrorInfo {
+	required BnetObjectAddress ObjectAddress = 1;
+	required int32 Status = 2;
+    required int32 ServiceHash = 3;
+    required int32 MethodId = 4;
+}
+

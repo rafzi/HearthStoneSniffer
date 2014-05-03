@@ -1,0 +1,5 @@
+message Platform {
+    required int32 OS = 1;
+    required int32 Screen = 2;
+    required string Name = 3;
+}

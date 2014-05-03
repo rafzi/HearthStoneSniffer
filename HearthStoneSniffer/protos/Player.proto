@@ -1,0 +1,9 @@
+import "BnetId.proto";
+import "Entity.proto";
+
+message Player {
+	required int32 Id = 1;
+	required BnetId GameAccountId = 2;
+    required int32 CardBack = 3;
+	required Entity Entity = 4;
+}

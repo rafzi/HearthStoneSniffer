@@ -1,0 +1,8 @@
+message BeginPlaying {
+	enum PlayingMode {
+         COUNTDOWN = 1;
+         READY = 2;
+    }
+    required PlayingMode Mode = 1;
+}
+

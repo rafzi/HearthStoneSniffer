@@ -1,0 +1,5 @@
+message BnetProcessId {
+	required int32 Label = 1;
+    required int32 Epoch = 2;
+}
+

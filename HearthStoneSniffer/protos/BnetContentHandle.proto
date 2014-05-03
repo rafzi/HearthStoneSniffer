@@ -1,0 +1,6 @@
+message BnetContentHandle {
+	required int32 Region = 1;
+    required int32 Usage = 2;
+    required int32 Hash = 3;
+    required string ProtoUrl = 4;
+}

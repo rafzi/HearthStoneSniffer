@@ -1,0 +1,15 @@
+message BnetLogonRequest {
+	required string Program = 1;
+    required string Platform = 2;
+    required string Locale = 3;
+    required string Email = 4;
+    required string Version = 5;
+    required int32 ApplicationVersion = 6;
+    required bool PublicComputer = 7;
+    required bytes SsoId = 8;
+    required bool DisconnectOnCookieFail = 9;
+    required bool AllowLogonQueueNotifications = 10;
+    required bool WebClientVerification = 11;
+    required bytes CacheWebCredentials = 12;
+}
+

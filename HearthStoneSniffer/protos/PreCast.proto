@@ -1,0 +1,3 @@
+message PreCast {
+	required int32 Entity = 1;
+}
